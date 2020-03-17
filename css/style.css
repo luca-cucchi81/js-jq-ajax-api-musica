@@ -74,7 +74,7 @@
 
   }
 
-  .album-card{
+  .cd{
       width: 20%;
       height: 400px;
       margin: 10px 10px;
@@ -86,23 +86,24 @@
       border-radius: 5px;
   }
 
-  .album-card img{
+  .cd img{
       width: 90%;
       border-radius: 5px;
       padding-bottom: 20px;
 
   }
 
-  .album-card h3{
-      font-size: 25px;
+  .cd h3{
+      font-size: 20px;
       font-weight: bold;
+      text-align: center;
       text-transform: uppercase;
       padding-bottom: 30px;
       color: #ffffff;
   }
 
-  .album-card span,
-  .album-card small{
+  .cd span,
+  .cd small{
       padding-bottom: 8px;
       transform: scale(1.2);
       color: grey;

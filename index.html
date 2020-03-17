@@ -15,7 +15,7 @@
         </nav>
 
         <div class="choose-container">
-            <label for="cars">Seleziona un genere:</label>
+            <label>Seleziona un genere:</label>
             <select id="generi">
               <option value="pop">Pop</option>
               <option value="rock">Rock</option>
@@ -24,14 +24,16 @@
             </select>
         </div>
 
-        <div class="container">
-            <div class="album-card">
-                <img src="https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg" alt="">
-                <h3>New Jersey</h3>
-                <span>Bon Jovi</span>
-                <small>1988</small>
+        <div class="container"></div>
+                                                                                <!-- le chiavi hanno lo stesso nome di quelle presenti nell'API -->
+        <script id="card-template" type="text/x-handlebars-template">
+             <div class="cd">
+                <img src="{{poster}}" alt="">
+                <h3>{{title}}</h3>
+                <span>{{author}}</span>
+                <small>{{year}}</small>
             </div>
-        </div>
+        </script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="js/script.js" charset="utf-8"></script>
