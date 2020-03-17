@@ -27,12 +27,11 @@ $(document).ready(function () {
                     $(this).show();
                 } else {
                     $(this).hide();
-
                 }
-            })
+            });
         }
-    })
-})
+    });
+});
 
 // <<..FUNZIONI..>>
 function getAlbums(albumsList){
